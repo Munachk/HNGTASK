@@ -16,8 +16,8 @@ app.get('/api?', (req, res) => {
         current_day: moment().format('dddd'),
         utc_time: `${moment().format().slice(0, -6)}Z`,
         track: "backend",
-        github_file_url: "https://github.com/DevCosmas/HNG_Task1/blob/master/api.js",
-        github_repo_url: "https://github.com/DevCosmas/HNG_Task1.git",
+        github_file_url: "https://github.com/Munachk/HNGTASK/blob/main/draft.js",
+        github_repo_url: "https://github.com/Munachk/HNGTASK.git",
         status: 200
     }
     const param = req.query
